@@ -1,0 +1,158 @@
+/* General Reset */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li,
+button,
+input,
+textarea {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header */
+#header {
+  background: #003092;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+#topnav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+#topnav a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+#header_content {
+  text-align: center;
+  padding: 40px;
+}
+
+#header_content h1 {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+#header_content button {
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.logo-picture {
+  width: 100px;
+}
+
+#story,
+#main,
+#contact {
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: #fff2db;
+  /* margin: 20px 0; */
+  /* border-radius: 8px; */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#main {
+  background-color: #ffab5b !important;
+}
+
+.client-testimonial {
+  text-align: center;
+}
+
+#story h2,
+#contact h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#story p,
+#main p {
+  color: #555;
+  max-width: 600px;
+}
+
+button {
+  background: #ff5733;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+#forms {
+  width: 50%;
+}
+/* Contact Form */
+#forms form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+}
+
+#forms input,
+#forms textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Footer */
+#footer {
+  background: #003092;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  /* margin-top: 20px; */
+}
+
+#footer a {
+  color: #fff2db;
+}
+
+@media (max-width: 490px) {
+  .about-picture {
+    display: none;
+  }
+  p, li, a {
+    font-size: 14px !important;
+  }
+  #forms {
+    width: initial;
+  }
+}
+
+@media (max-width: 412px) {
+  a {
+    margin: 0 !important;
+  }
+}
